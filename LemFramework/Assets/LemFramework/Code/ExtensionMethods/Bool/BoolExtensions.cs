@@ -2,7 +2,7 @@
 
 namespace LemFramework.ExtensionMethods
 {
-    public static class BoolExtensionMethods
+    public static class BoolExtensions
     {
         public static bool Random(this bool tbool)
         {
