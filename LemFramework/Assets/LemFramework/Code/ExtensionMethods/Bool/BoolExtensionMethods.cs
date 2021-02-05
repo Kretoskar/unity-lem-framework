@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace LemFramework.ExtensionMethods.Bool
+namespace LemFramework.ExtensionMethods
 {
-    public static class RandomBool
+    public static class BoolExtensionMethods
     {
         public static bool Random(this bool tbool)
         {
