@@ -6,7 +6,7 @@ namespace LemFramework.ExtensionMethods
 {
     public static class EnumerableExtensions
     {
-        private static Random random = new Random();
+        private static Random _random = new Random();
      
         public static T RandomElement<T>(this IEnumerable<T> tenumerable)
         {
@@ -14,7 +14,7 @@ namespace LemFramework.ExtensionMethods
             if (!tenumerable.Any())
                 return default(T);
  
-            return tenumerable.ElementAt(random.Next(tenumerable.Count()));
+            return tenumerable.ElementAt(_random.Next(tenumerable.Count()));
         }
     }
 }
