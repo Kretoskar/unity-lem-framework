@@ -11,3 +11,5 @@
 ## Patterns
   * Singleton
   * Object pool
+  * State
+  * Command
