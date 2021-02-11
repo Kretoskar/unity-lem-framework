@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Helper
+﻿namespace LemFramework.Helper
 {
     public class Heap<T> where T : IHeapItem<T>
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Helper
+namespace LemFramework.Helper
 {
     public interface IHeapItem<T> : IComparable<T>
     {
