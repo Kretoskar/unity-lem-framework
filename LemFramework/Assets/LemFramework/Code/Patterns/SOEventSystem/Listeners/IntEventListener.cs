@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using LemFramework.Patterns.SOEventSystem;
-using UnityEngine;
-
-public class IntEventListener : BaseGameEventListener<int, IntEvent, UnityIntEvent>
+﻿namespace LemFramework.Patterns.SOEventSystem
 {
-    
+    public class IntEventListener : BaseGameEventListener<int, IntEvent, UnityIntEvent>
+    {
+
+    }
 }
