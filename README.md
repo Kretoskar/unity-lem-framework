@@ -13,6 +13,7 @@
   * Object pool
   * State
   * Command
+  * Scriptable object event system
 
 ## Helper
   * Heap
